@@ -1,0 +1,116 @@
+body{
+	
+	position: relative;
+	font-size: 20px;
+}
+
+
+.altaUsuario {
+	
+  width: 700px;
+  height: 1000px;
+  background-color:rgba(0, 0, 0, 0.8);
+  color: #fff;
+  top: 750px;
+  left: 50%;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+	
+}
+
+.altaUsuario .avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position:absolute;
+  top: 2px;
+  left: 300px;
+}
+
+#vuelta{
+	font-size: 20px;
+	color: #84B4B4;
+}
+#vuelta:hover {
+  cursor: pointer;
+  color: #ffc107;
+}
+.altaUsuario p {
+	top: 200px;
+	color: red;
+}
+
+.altaUsuario input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.altaUsuario input[type="text"],.altaUsuario input[type="email"],.altaUsuario input[type="date"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.altaUsuario input[type="password"]{
+	border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+	
+}
+
+
+.altaUsuario input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #84B4B4;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.altaUsuario input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+
+
+.altaUsuario a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.altaUsuario a:hover {
+  color: #fff;
+}
+
+
+.strongpass {
+	background-color: green;
+}
+
+.middlepass {
+	background-color: yellow;
+}
+
+.weakpass {
+	background-color: red;
+}
+
+.nanpass {
+	background-color: lightyellow;
+}
+

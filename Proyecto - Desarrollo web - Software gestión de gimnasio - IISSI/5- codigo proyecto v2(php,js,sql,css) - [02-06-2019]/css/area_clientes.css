@@ -1,0 +1,19 @@
+.Areah {
+	font-size: 50px;
+  	 text-align: center;
+}
+
+
+.datos {
+	font-size: 20px;
+	text-align: center;
+}
+
+body{
+	background-image: url(file:///"img/");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	background-position:center;
+	font-family: 'Roboto', sans-serif;
+}
